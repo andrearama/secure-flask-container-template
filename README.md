@@ -6,7 +6,11 @@ _A template repo showing how to serve an API over HTTPS conveniently with Let's 
 
 ## Quick Start for Serving an API
 
-Make sure your server is reachable under your domain name and has Docker and Docker Compose installed and 
+1. Assuming domain from Namecheap and docker on DO do: https://www.namecheap.com/support/knowledgebase/article.aspx/10375/2208/how-do-i-link-a-domain-to-my-digitalocean-account/
+
+2. ON DO ->Networking->Domains, follow the "Set up DNS" part of this tutorial
+
+3. Make sure your server is reachable under your domain name and has Docker and Docker Compose installed. 
 
 Then, to spin up a Flask container serving an API securely over HTTPS, run:
 ```sh
